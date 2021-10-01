@@ -1,0 +1,23 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "jwt practice",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "jwt",
+    "node"
+  ],
+  "author": "Mikhail Volkov <volkov.work1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "nodemon": "^2.0.12"
+  }
+}
